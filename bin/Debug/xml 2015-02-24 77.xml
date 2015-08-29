@@ -1,0 +1,38 @@
+<Worksheet >
+	<Row>
+		<Cell><Data ss:Type="String">2014-77</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">14077</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">CEM-101 (солитромицин, )</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">капсулы 200 мг солитромицина (CEM-101) или плацебо (блистеры 20.000 капсул) ; лиофилизат для приготовления раствора для внутривенного введения 400 мг солитромицина (СЕМ-101) (флаконы флаконы объемом 50 мл, содержащие 400 мг солитромицина)</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Семпра Фармасьютикалс, Инк</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">не определено</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">№CE01-301 № CE01-301 Рандомизированное, двойное слепое, многоцентровое исследование для оценки эффективности и безопасности применения солитромицина (CEM-101), от внутривенного к пероральному введению, в сравнении с применением моксифлоксацина, от внутривенного к пероральному введению при лечении взрослых пациентов с внебольничной бактериальной пневмонией</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">пневмония</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">12</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">не определено</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">III</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">15</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Москва,Санкт-Петербург,Пенза,Барнаул,Омск,Смоленск,Новосибирск,</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">84</Data><NamedCell/></Cell>
+	</Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Муниципальное учреждение здравоохранения Городская клиническая больница № 4,Москва</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное образовательное учреждение высшего профессионального образования Первый Московский государственный медицинский университет имени И.М. Сеченова Министерства здравоохранения  Российской Федерации,Санкт-Петербург</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Санкт-Петербургское государственное бюджетное учреждение здравоохранения «Городская поликлиника № 107»,Москва</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное учреждение здравоохранения города Москвы Городская клиническая больница №50 Департамента здравоохранения города Москвы,Пенза</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Негосударственное учреждение здравоохранения «Дорожная клиническая больница открытого акционерного общества «Российские железные дороги»,Барнаул</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное образовательное учреждение высшего профессионального образования Первый Московский государственный медицинский университет имени И.М. Сеченова Министерства здравоохранения  Российской Федерации,Санкт-Петербург</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное учреждение здравоохранения «Пензенская городская клиническая больница № 4»,Омск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Краевое государственное бюджетное учреждение здравоохранения «Городская больница № 5, г. Барнаул»,Санкт-Петербург</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Санкт-Петербургское государственное учреждение здравоохранения «Городская больница № 15»,Смоленск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Областное государственное автономное учреждение здравоохранения  «Томская областная клиническая больница»,Новосибирск</Data></Cell></Row>
+</Worksheet >

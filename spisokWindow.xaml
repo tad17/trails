@@ -1,0 +1,36 @@
+﻿<Window x:Class="trails.spisokWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Список исследований" Height="400" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <CheckBox x:Name="cbSelectAll" Content="Установить/снять отметку" 
+                  HorizontalAlignment="Left" 
+                  Margin="10,24,0,0" VerticalAlignment="Top" Click="cbSelectAll_Click" IsChecked="True"/>
+        <Button x:Name="btRecalc" Content="Подсчитать отмеченных" 
+                HorizontalAlignment="Right" Margin="0,18,9.6,0" VerticalAlignment="Top" Width="155" Click="btRecalc_Click"/>
+
+        <DataGrid x:Name="dataList" 
+                  HorizontalAlignment="Left"  
+                  VerticalAlignment="Top"
+                  Grid.Row="1" 
+                  AutoGenerateColumns="False" RowHeight="50" FrozenColumnCount="2" 
+                  >
+        </DataGrid>
+        <Button x:Name="btnExit" 
+                Content="Готово" 
+                HorizontalAlignment="Right" Margin="0,0,9.6,10" 
+                Grid.Row="2" VerticalAlignment="Bottom" 
+                Width="75" Click="btnExit_Click"/>
+        <Label x:Name="lbSelected" Content="" 
+               HorizontalAlignment="Left" 
+               Margin="10,13.6,0,0" Grid.Row="2" 
+               VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,1 @@
+C:\projects\trails\trails\bin\Debug\trails.exe.config

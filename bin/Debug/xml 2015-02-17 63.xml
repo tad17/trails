@@ -1,0 +1,26 @@
+<Worksheet >
+	<Row>
+		<Cell><Data ss:Type="String">2014-63</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">14063</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">MM-D37K</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">лиофилизат для приготовления раствора для инфузий 100 мг (флаконы)</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">ООО "МетаМакс"</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">№MM-D37K-101 № MM-D37K-101 Открытое нерандомизированное исследование I-IIa фазы по подбору дозы и оценке безопасности, переносимости, фармакокинетики, фармакодинамики и клинического эффекта препарата MM-D37K у пациентов с распространенными солидными опухолями.</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String"> неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">22</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String"> неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">10</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Челябинск,Владимир,Краснодар,Пятигорск,</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">75</Data><NamedCell/></Cell>
+	</Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Федеральное государственное бюджетное научное учреждение «Российский онкологический научный центр имени Н.Н. Блохина»,Челябинск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное учреждение здравоохранения «Челябинский областной клинический онкологический диспансер»,Владимир</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное учреждение здравоохранения Московской области «Московский областной научно-исследовательский клинический институт им. М.Ф. Владимирского»,Краснодар</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное учреждение здравоохранения «Онкологический диспансер № 2» департамента здравоохранения Краснодарского края,Пятигорск</Data></Cell></Row>
+</Worksheet >

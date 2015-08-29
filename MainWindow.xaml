@@ -1,0 +1,58 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:trails" x:Class="trails.MainWindow"
+        Title="Импорт trails v1.12" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="24"/>
+        </Grid.RowDefinitions>
+        <Menu >
+            <MenuItem Header="Файл">
+                <MenuItem x:Name="menuOpen" Header="Открыть" IsEnabled="True" Click="menuOpen_Click" />
+                <MenuItem x:Name="menuSave" Header="Слить" IsEnabled="True" Click="menuSave_Click"  />
+                <Separator/>
+                <MenuItem x:Name="menuExit" Header="Выход" Click="menuExit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Справочники">
+                <MenuItem x:Name="menuSpravOpen" Header="Перечитать" IsEnabled="True" Click="menuSpravOpen_Click" />
+            </MenuItem>
+        </Menu>
+        <DockPanel Grid.Row="2">
+            <StatusBar DockPanel.Dock="Bottom"  Background="Beige">
+                <StatusBarItem>
+                    <TextBlock x:Name="lbStatus" Width="250"  Margin="4,0,0,0" />
+                </StatusBarItem>
+            </StatusBar>
+        </DockPanel>
+        <Grid Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="lbRki" Content="Исходные данные:" Margin="4" FontSize="14" FontWeight="Bold"/>
+                <local:uc1 x:Name="leftPanel" Grid.Row="1" Margin="4" />
+            </Grid>
+            <Button x:Name="btGo"  Grid.Column="1" VerticalAlignment="Center" Click="btGo_Click">
+                =>
+            </Button>
+
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Выходные данные:" Margin="4" FontSize="14" FontWeight="Bold"/>
+                <local:uc2 x:Name="rightPanel" Grid.Row="1" Margin="4" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

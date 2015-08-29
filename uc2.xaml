@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="trails.uc2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:trails"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <TextBlock Name="tb">
+                            <ContentPresenter/>
+                        </TextBlock>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="true">
+                                <Setter TargetName="tb" Property="Background" Value="#FF95FCEB"/>
+                                <Setter TargetName="tb" Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <local:PageConverter x:Key="PageConverter"></local:PageConverter>
+    </UserControl.Resources>
+    
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <TabControl HorizontalAlignment="Left"  VerticalAlignment="Top" 
+                     Width="{Binding ActualWidth, ElementName=grid}"
+                     Height="{Binding ActualHeight, ElementName=grid, Converter={StaticResource PageConverter}}">
+            <TabItem x:Name="tabItemData" Header="Данные">
+                <Border BorderBrush="Black" BorderThickness="1"  CornerRadius="4">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFF3FDFC" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <Border  Margin="8"
+                            Height="{Binding Height, ElementName=tabItemData, Mode=OneWay}"
+                            Background="White" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Top">
+                        <ScrollViewer >
+                            <SelectiveScrollingGrid x:Name="dataGrid" Margin="4" >
+                                <SelectiveScrollingGrid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </SelectiveScrollingGrid.RowDefinitions>
+                                
+                                <SelectiveScrollingGrid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </SelectiveScrollingGrid.ColumnDefinitions>
+                                
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="№:" Grid.Row="0"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="№ разработки:" Grid.Row="1"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Препарат:" Grid.Row="2"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Форма:" Grid.Row="3"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Производитель:" Grid.Row="4"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Страна:" Grid.Row="5"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Протокол:" Grid.Row="6"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Показания:" Grid.Row="7"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Продолжительность:" Grid.Row="8"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Вид КИ ЛС:" Grid.Row="9"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Фаза КИ ЛС:" Grid.Row="10"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Кол-во кл. баз:" Grid.Row="11"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Кол-во пациентов:" Grid.Row="12"/>
+                                <Label HorizontalAlignment="Right" Margin="0,-6,10,0" Content="Список городов:" Grid.Row="13"/>
+                                <!-- значения -->
+                                <TextBlock TextWrapping="Wrap" Name="lbNomer"  Text="" Grid.Row="0" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbNomerRas" Text="" Grid.Row="1" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbPreparat" Text="" Grid.Row="2" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbForma" Text="" Grid.Row="3" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbProducer" Text="" Grid.Row="4" Grid.Column="1"/>
+                                <ComboBox  Name="cbCountry" Text="" Grid.Row="5" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbProtocol" Text="" Grid.Row="6" Grid.Column="1"/>
+                                <ComboBox  Name="cbPokas" Text="" Grid.Row="7" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbDuration" Text="" Grid.Row="8" Grid.Column="1"/>
+                                <ComboBox Name="cbVid" Text="" Grid.Row="9" Grid.Column="1"/>
+                                <ComboBox  Name="cbPhase" Text="" Grid.Row="10" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbBases" Text="" Grid.Row="11" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbPacient" Text="" Grid.Row="12" Grid.Column="1"/>
+                                <TextBlock TextWrapping="Wrap" Name="lbCities" Text="" Grid.Row="13" Grid.Column="1"/>
+                            </SelectiveScrollingGrid>
+
+                        </ScrollViewer>
+                    </Border>
+                </Border>
+            </TabItem>
+            <TabItem x:Name="tabItemXML" Header="XML">
+                <Border BorderBrush="Black" BorderThickness="1"  CornerRadius="4">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFF3FDFC" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <ScrollViewer HorizontalScrollBarVisibility="Visible">
+                        <Border Margin="4" 
+                            Height="{Binding Height, ElementName=tabItemData, Mode=OneWay}"
+                            Background="White" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Top">
+                            <TextBlock TextWrapping="NoWrap" Name="tbXML" Text="" />
+                        </Border>
+                    </ScrollViewer>
+                </Border>
+            </TabItem>
+        </TabControl>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right">
+            <Button x:Name="btMoskva"  Margin="4" Click="btMoskva_Click" >
+                Москва
+            </Button>
+            <Button x:Name="btSave"  Margin="4" Click="btSave_Click">
+                Сохранить
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

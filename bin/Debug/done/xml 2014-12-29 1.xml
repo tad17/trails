@@ -1,0 +1,36 @@
+<Worksheet >
+	<Row>
+		<Cell><Data ss:Type="String">701</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">701</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">BCD-055 (Инфликсимаб)</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Лиофилизат для приготовления раствора для инфузий 100 мг (флаконы)</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">ЗАО "Биокад"</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Россия</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">№ BCD-055-1/ASART-1 Международное многоцентровое сравнительное двойное слепое рандомизированное клиническое исследование фармакокинетики и безопасности препарата BCD-055 (ЗАО «БИОКАД», Россия) и препарата Ремикейд® у больных анкилозирующим спондилитом</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">акне</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">29</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String"> неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">9</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Воронеж,Москва,Новосибирск,Смоленск,Челябинск,</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">90</Data><NamedCell/></Cell>
+	</Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное учреждение здравоохранения «Воронежская областная клиническая больница № 1»,Воронеж</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Федеральное государственное бюджетное учреждение «Научно-исследовательский институт клинической иммунологии» Сибирского отделения Российской академии медицинских наук,Москва</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное учреждение здравоохранения Нижегородской области  Нижегородская областная клиническая больница им. Н. А. Семашко,Москва</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Федеральное государственное бюджетное учреждение «Научно-исследовательский институт ревматологии имени В.А. Насоновой» Российской академии медицинских наук,Москва</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">государственное автономное учреждение здравоохранения Новосибирской области «Городская клиническая поликлиника № 1»,Новосибирск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Негосударственное учреждение здравоохранения «Отделенческая больница на станции Смоленск открытого акционерного общества «Российские железные дороги»,Смоленск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное образовательное учреждение высшего профессионального образования «Северо-Западный государственный медицинский университет имени И.И. Мечникова» Министерства здравоохранения и социального развития Российской Федерации,Москва</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное учреждение здравоохранения Челябинская областная клиническая больница,Челябинск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Негосударственное учреждение здравоохранения «Дорожная клиническая больница на станции Челябинск открытого акционерного общества «Российские железные дороги»,Челябинск</Data></Cell></Row>
+</Worksheet >

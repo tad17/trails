@@ -1,0 +1,24 @@
+<Worksheet >
+	<Row>
+		<Cell><Data ss:Type="String">2015-76</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">76</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">CHS-0214</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">раствор для подкожного введения 50 мг/мл (шприцы)</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Кохерус Байосайенсез Инк.</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">№ CHS-0214-04 Двойное слепое рандомизированное исследование в параллельных группах с активным контролем для сравнения эффективности и безопасности CHS-0214 и Энбрел ® у пациентов с хроническим бляшечным псориазом(CHS-0214-04) (РаПсОди)</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">псориаз</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">15</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String"> неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">неизвестно</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">9</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="String">Смоленск,Санкт-Петербург,Саратов,</Data><NamedCell/></Cell>
+		<Cell><Data ss:Type="Number">120</Data><NamedCell/></Cell>
+	</Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное образовательное учреждение высшего профессионального образования «Московский государственный            медико-стоматологический университет имени А.И. Евдокимова» Министерства здравоохранения Российской Федерации,Смоленск</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Государственное бюджетное образовательное учреждение высшего профессионального образования «Смоленская государственная медицинская академия» Министерства здравоохранения и социального развития Российской Федерации,Санкт-Петербург</Data></Cell></Row>
+	<Row><Cell ss:Index="12"/></Row>
+	<Row><Cell ss:Index="12"><Data ss:Type="String">Санкт-Петербургское государственное бюджетное учреждение здравоохранения «Кожно-венерологический диспансер № 10 - Клиника дерматологии и венерологии»,Саратов</Data></Cell></Row>
+</Worksheet >
